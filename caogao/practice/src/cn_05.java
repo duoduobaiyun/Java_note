@@ -46,7 +46,15 @@ public class cn_05 {
                 break;
         }
 
-
+        //更优的解法
+        switch (score/60){
+            case 0:
+                System.out.println("不及格");
+                break;
+            case 1:
+                System.out.println("及格");
+                break;
+        }
 
     }
 }
