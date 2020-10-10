@@ -4,7 +4,7 @@
 *
 * 最小的质数是:2*/
 
-
+/* 优化一*/
 public class cn_11 {
     public static void main(String[] args){
         //获取当前时间距离1970-01-01 00:00:00 的毫秒数
