@@ -8,6 +8,8 @@ public class main {
       System.out.println(strObt);
 
 
+
+
       Anmial a = new Anmial();
       a.name="hh";
       a.age=123;

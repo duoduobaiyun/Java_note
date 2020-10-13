@@ -1,4 +1,5 @@
 package Modifier;
+
 /*
 * 非访问修饰符
 为了实现一些其他的功能，Java 也提供了许多非访问修饰符。
@@ -16,6 +17,7 @@ static 关键字用来声明独立于对象的静态方法。静态方法不能�
 * */
 public class InstanceCounter {
     private static int numInstances = 0;
+
     protected static int getCount() {
         return numInstances;
     }
@@ -31,7 +33,7 @@ public class InstanceCounter {
     public static void main(String[] arguments) {
         System.out.println("Starting with " +
                 InstanceCounter.getCount() + " instances");
-        for (int i = 0; i < 500; ++i){
+        for (int i = 0; i < 500; ++i) {
             new InstanceCounter();
         }
         System.out.println("Created " +
