@@ -7,5 +7,6 @@ public class cn_14 {
         for (double element:mylist){
             System.out.println(element);
         }
+
     }
 }
