@@ -48,8 +48,8 @@ public class cn_13 {
         System.out.println(names.length);//5
         System.out.println(ids.length);
         //如何遍历数组的长度
-        for(int i=0;i<names.length;i++){
-            System.out.println(names[i]+" ");
+        for(int i=0;i<ids.length;i++){
+            System.out.println(ids[i]+" ");
         }
 
 

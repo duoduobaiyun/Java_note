@@ -5,7 +5,7 @@ public class cn_27 {
         String[] arr = new String[]{"JJ", "DD", "MM", "BB", "GG", "AA"};
 
         //数组复制(区别与数组变量的赋值,arr1=arr)
-        String[] arr1 = new String[arr.length];
+        String[] arr1 = new String[arr.length];//要new一个
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = arr[i];
         }
@@ -53,7 +53,7 @@ public class cn_27 {
         //前提,所要查找的数组必须有序。
         int[] arr2 = new int[]{-98, -34, 2, 34, 54, 66, 79, 105, 210, 333};
         int dest1 = -34;
-        dest1 = 34;
+        dest1 = 210;
         int head = 0;//初始化索引
         int end = arr2.length - 1;//初始化的末索引
         boolean isFlag1 = true;
