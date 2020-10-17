@@ -20,16 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685fec09-b58a-4811-933c-e64a4200a63d" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/CatMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/main0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CN_C190603/src/CN_C190603_Class/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../caogao/out/production/practice/cn_12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../caogao/out/production/practice/cn_12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modifier/InstanceCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modifier/InstanceCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_36/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_36/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_37/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caogao/out/production/practice/cn_33$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../caogao/out/production/practice/cn_33$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caogao/out/production/practice/cn_33.class" beforeDir="false" afterPath="$PROJECT_DIR$/../caogao/out/production/practice/cn_33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caogao/practice/src/cn_33.java" beforeDir="false" afterPath="$PROJECT_DIR$/../caogao/practice/src/cn_33.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +60,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +82,7 @@
       <updated>1602147556831</updated>
       <workItem from="1602147557916" duration="20000" />
       <workItem from="1602585820321" duration="1049000" />
+      <workItem from="1602943263508" duration="58000" />
     </task>
     <servers />
   </component>
