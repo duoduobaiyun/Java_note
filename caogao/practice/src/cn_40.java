@@ -11,14 +11,20 @@
 
 
 import java.util.Arrays;
+
 public class cn_40 {
     public static void main(String[] args) {
+//        Student s1 = new Student();
+//        Student s1 = new Student();
+//        Student s1 = new Student();
+//        Student s1 = new Student();
+//        Student s1 = new Student();
 
         //声明Student类型的数组
-        cn_39.Student[] stus =new cn_39.Student[20];//对象数组String[] arr= new String[10];
+        Student1[] stus =new Student1[20];//对象数组String[] arr= new String[10];
         for (int i =0;i<stus.length;i++){
             //给数组元素赋值
-            stus[i]=new cn_39.Student();
+            stus[i]=new Student1();
             //给Student对象属性赋值
             stus[i].number=(i+1);
             //年级:[1,6]
@@ -27,19 +33,12 @@ public class cn_40 {
             stus[i].score=(int)(Math.random()*(100-0+1));
         }
         //遍历学生数组
-        for (int i=0;i<stus.length;i++){
-            //System.out.println(stus[i].number+","+stus[i].state+","+stus[i].score);
-            System.out.println(stus[i].info());
-        }
+
 
         System.out.println("**************************");
 
         //问题一:打印出3年级(state值为3)的学生信息。
-        for (int i = 0;i<stus.length;i++){
-            if (stus[i].state==3){
-                System.out.println(stus[i].info());
-            }
-        }
+
 
         System.out.println("*************************");
 
@@ -48,7 +47,7 @@ public class cn_40 {
             for (int j=0;j<stus.length-1-i;j++){
                 if (stus[j].score>stus[j+1].score){
                     //如果需要换序,交换的是数组的元素:Student对象!!!!!!
-                    cn_39.Student temp =stus[j];
+                    Student1 temp =stus[j];
                     stus[j] =stus[j+1];
                     stus[j+1]=temp;
                 }
@@ -58,10 +57,33 @@ public class cn_40 {
         for (int i =0;i<stus.length;i++){
             System.out.println(stus[i].info());
         }
-
     }
 
-    static class Student {
+    //遍历Student1[]数组的操作
+    public void print(Student1[] stus){
+        for (int i=0;i<stus.length;i++){
+            System.out.println(stus[i].info());
+        }
+    }
+
+
+
+    /**
+     *
+     * @param stus
+     * @param state
+     */
+    public void searchState(Student1[] stus,int state){
+        for (int i = 0;i<stus.length;i++){
+            if (stus[i].state==3){
+                System.out.println(stus[i].info());
+            }
+        }
+    }
+
+
+
+    static class Student1 {
         int number;//学号
         int state;//年级
         int score;//成绩
