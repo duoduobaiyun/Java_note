@@ -15,7 +15,7 @@ public class cn_50 {
 //        m = n;
 //        n = temp;
 
-        cn_50 test =new cn_50();
+        cn_50 test =new cn_50();//方法所在类的对象,类是指class文件名,对象是自己创建的
         test.swap(m,n);
 
 
