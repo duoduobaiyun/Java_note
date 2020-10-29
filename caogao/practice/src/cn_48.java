@@ -34,6 +34,7 @@ public class cn_48 {
         }
     }
 
+    //不能与上述方法同在
 //    public void show(String[] strs){
 //        System.out.println();
 //    }
